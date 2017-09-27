@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF366C891F7B6DBE00EC9F4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF366C881F7B6DBE00EC9F4C /* main.m */; };
+		EF366C8C1F7B6DBE00EC9F4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF366C8B1F7B6DBE00EC9F4C /* AppDelegate.m */; };
+		EF366C8F1F7B6DBE00EC9F4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF366C8E1F7B6DBE00EC9F4C /* ViewController.m */; };
+		EF366C921F7B6DBE00EC9F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF366C901F7B6DBE00EC9F4C /* Main.storyboard */; };
+		EF366C941F7B6DBE00EC9F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF366C931F7B6DBE00EC9F4C /* Assets.xcassets */; };
+		EF366C971F7B6DBE00EC9F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF366C951F7B6DBE00EC9F4C /* LaunchScreen.storyboard */; };
+		EF366C9F1F7B705D00EC9F4C /* 01 - Kala Chashma.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF366C9E1F7B705D00EC9F4C /* 01 - Kala Chashma.mp3 */; };
+		EF366CA21F7B70AB00EC9F4C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF366CA11F7B70AB00EC9F4C /* MediaPlayer.framework */; };
+		EF366CA41F7B70B400EC9F4C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF366CA31F7B70B400EC9F4C /* AVFoundation.framework */; };
+		EF366CA61F7B816E00EC9F4C /* 01 - Sau Tarah Ke - Dishoom [DJMaza.Cool].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF366CA51F7B816E00EC9F4C /* 01 - Sau Tarah Ke - Dishoom [DJMaza.Cool].mp3 */; };
+		EF366CA81F7B817600EC9F4C /* Chalti Hai Kya 9 Se 12-(Mr-Jatt.com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF366CA71F7B817600EC9F4C /* Chalti Hai Kya 9 Se 12-(Mr-Jatt.com).mp3 */; };
+		EF366CAA1F7B818E00EC9F4C /* Cheez Badi (Machine).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF366CA91F7B818E00EC9F4C /* Cheez Badi (Machine).mp3 */; };
+		EF366CAC1F7B819400EC9F4C /* Befikra.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF366CAB1F7B819400EC9F4C /* Befikra.mp3 */; };
+		EF366CAE1F7B819A00EC9F4C /* Oonchi Hai Building-(Mr-Jatt.com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF366CAD1F7B819A00EC9F4C /* Oonchi Hai Building-(Mr-Jatt.com).mp3 */; };
+		EF366CB01F7B81A600EC9F4C /* Kar Gayi Chull (Kapoor & Sons) -320Kbps [DJMaza.Info].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF366CAF1F7B81A600EC9F4C /* Kar Gayi Chull (Kapoor & Sons) -320Kbps [DJMaza.Info].mp3 */; };
+		EF366CB21F7B81AF00EC9F4C /* Tu Hai Ki Nahi (Roy) - Ankit Tiwari -320Kbps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF366CB11F7B81AF00EC9F4C /* Tu Hai Ki Nahi (Roy) - Ankit Tiwari -320Kbps.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF366C841F7B6DBD00EC9F4C /* iOS_day16_audioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_day16_audioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF366C881F7B6DBE00EC9F4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF366C8A1F7B6DBE00EC9F4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF366C8B1F7B6DBE00EC9F4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF366C8D1F7B6DBE00EC9F4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF366C8E1F7B6DBE00EC9F4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF366C911F7B6DBE00EC9F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF366C931F7B6DBE00EC9F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF366C961F7B6DBE00EC9F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF366C981F7B6DBE00EC9F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF366C9E1F7B705D00EC9F4C /* 01 - Kala Chashma.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 - Kala Chashma.mp3"; sourceTree = "<group>"; };
+		EF366CA11F7B70AB00EC9F4C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EF366CA31F7B70B400EC9F4C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EF366CA51F7B816E00EC9F4C /* 01 - Sau Tarah Ke - Dishoom [DJMaza.Cool].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 - Sau Tarah Ke - Dishoom [DJMaza.Cool].mp3"; sourceTree = "<group>"; };
+		EF366CA71F7B817600EC9F4C /* Chalti Hai Kya 9 Se 12-(Mr-Jatt.com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chalti Hai Kya 9 Se 12-(Mr-Jatt.com).mp3"; sourceTree = "<group>"; };
+		EF366CA91F7B818E00EC9F4C /* Cheez Badi (Machine).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Cheez Badi (Machine).mp3"; sourceTree = "<group>"; };
+		EF366CAB1F7B819400EC9F4C /* Befikra.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Befikra.mp3; sourceTree = "<group>"; };
+		EF366CAD1F7B819A00EC9F4C /* Oonchi Hai Building-(Mr-Jatt.com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Oonchi Hai Building-(Mr-Jatt.com).mp3"; sourceTree = "<group>"; };
+		EF366CAF1F7B81A600EC9F4C /* Kar Gayi Chull (Kapoor & Sons) -320Kbps [DJMaza.Info].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kar Gayi Chull (Kapoor & Sons) -320Kbps [DJMaza.Info].mp3"; sourceTree = "<group>"; };
+		EF366CB11F7B81AF00EC9F4C /* Tu Hai Ki Nahi (Roy) - Ankit Tiwari -320Kbps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tu Hai Ki Nahi (Roy) - Ankit Tiwari -320Kbps.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF366C811F7B6DBD00EC9F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF366CA41F7B70B400EC9F4C /* AVFoundation.framework in Frameworks */,
+				EF366CA21F7B70AB00EC9F4C /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF366C7B1F7B6DBD00EC9F4C = {
+			isa = PBXGroup;
+			children = (
+				EF366C861F7B6DBD00EC9F4C /* iOS_day16_audioPlayer */,
+				EF366C851F7B6DBD00EC9F4C /* Products */,
+				EF366CA01F7B70AB00EC9F4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF366C851F7B6DBD00EC9F4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF366C841F7B6DBD00EC9F4C /* iOS_day16_audioPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF366C861F7B6DBD00EC9F4C /* iOS_day16_audioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EF366C8A1F7B6DBE00EC9F4C /* AppDelegate.h */,
+				EF366C8B1F7B6DBE00EC9F4C /* AppDelegate.m */,
+				EF366C9E1F7B705D00EC9F4C /* 01 - Kala Chashma.mp3 */,
+				EF366CA51F7B816E00EC9F4C /* 01 - Sau Tarah Ke - Dishoom [DJMaza.Cool].mp3 */,
+				EF366CA71F7B817600EC9F4C /* Chalti Hai Kya 9 Se 12-(Mr-Jatt.com).mp3 */,
+				EF366CAB1F7B819400EC9F4C /* Befikra.mp3 */,
+				EF366CA91F7B818E00EC9F4C /* Cheez Badi (Machine).mp3 */,
+				EF366CAD1F7B819A00EC9F4C /* Oonchi Hai Building-(Mr-Jatt.com).mp3 */,
+				EF366CB11F7B81AF00EC9F4C /* Tu Hai Ki Nahi (Roy) - Ankit Tiwari -320Kbps.mp3 */,
+				EF366CAF1F7B81A600EC9F4C /* Kar Gayi Chull (Kapoor & Sons) -320Kbps [DJMaza.Info].mp3 */,
+				EF366C8D1F7B6DBE00EC9F4C /* ViewController.h */,
+				EF366C8E1F7B6DBE00EC9F4C /* ViewController.m */,
+				EF366C901F7B6DBE00EC9F4C /* Main.storyboard */,
+				EF366C931F7B6DBE00EC9F4C /* Assets.xcassets */,
+				EF366C951F7B6DBE00EC9F4C /* LaunchScreen.storyboard */,
+				EF366C981F7B6DBE00EC9F4C /* Info.plist */,
+				EF366C871F7B6DBD00EC9F4C /* Supporting Files */,
+			);
+			path = iOS_day16_audioPlayer;
+			sourceTree = "<group>";
+		};
+		EF366C871F7B6DBD00EC9F4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF366C881F7B6DBE00EC9F4C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF366CA01F7B70AB00EC9F4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF366CA31F7B70B400EC9F4C /* AVFoundation.framework */,
+				EF366CA11F7B70AB00EC9F4C /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF366C831F7B6DBD00EC9F4C /* iOS_day16_audioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF366C9B1F7B6DBE00EC9F4C /* Build configuration list for PBXNativeTarget "iOS_day16_audioPlayer" */;
+			buildPhases = (
+				EF366C801F7B6DBD00EC9F4C /* Sources */,
+				EF366C811F7B6DBD00EC9F4C /* Frameworks */,
+				EF366C821F7B6DBD00EC9F4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_day16_audioPlayer;
+			productName = iOS_day16_audioPlayer;
+			productReference = EF366C841F7B6DBD00EC9F4C /* iOS_day16_audioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF366C7C1F7B6DBD00EC9F4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Felix;
+				TargetAttributes = {
+					EF366C831F7B6DBD00EC9F4C = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EF366C7F1F7B6DBD00EC9F4C /* Build configuration list for PBXProject "iOS_day16_audioPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF366C7B1F7B6DBD00EC9F4C;
+			productRefGroup = EF366C851F7B6DBD00EC9F4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF366C831F7B6DBD00EC9F4C /* iOS_day16_audioPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF366C821F7B6DBD00EC9F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF366CA81F7B817600EC9F4C /* Chalti Hai Kya 9 Se 12-(Mr-Jatt.com).mp3 in Resources */,
+				EF366CAE1F7B819A00EC9F4C /* Oonchi Hai Building-(Mr-Jatt.com).mp3 in Resources */,
+				EF366C971F7B6DBE00EC9F4C /* LaunchScreen.storyboard in Resources */,
+				EF366CA61F7B816E00EC9F4C /* 01 - Sau Tarah Ke - Dishoom [DJMaza.Cool].mp3 in Resources */,
+				EF366CB01F7B81A600EC9F4C /* Kar Gayi Chull (Kapoor & Sons) -320Kbps [DJMaza.Info].mp3 in Resources */,
+				EF366CB21F7B81AF00EC9F4C /* Tu Hai Ki Nahi (Roy) - Ankit Tiwari -320Kbps.mp3 in Resources */,
+				EF366CAA1F7B818E00EC9F4C /* Cheez Badi (Machine).mp3 in Resources */,
+				EF366C941F7B6DBE00EC9F4C /* Assets.xcassets in Resources */,
+				EF366CAC1F7B819400EC9F4C /* Befikra.mp3 in Resources */,
+				EF366C921F7B6DBE00EC9F4C /* Main.storyboard in Resources */,
+				EF366C9F1F7B705D00EC9F4C /* 01 - Kala Chashma.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF366C801F7B6DBD00EC9F4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF366C8F1F7B6DBE00EC9F4C /* ViewController.m in Sources */,
+				EF366C8C1F7B6DBE00EC9F4C /* AppDelegate.m in Sources */,
+				EF366C891F7B6DBE00EC9F4C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF366C901F7B6DBE00EC9F4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF366C911F7B6DBE00EC9F4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF366C951F7B6DBE00EC9F4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF366C961F7B6DBE00EC9F4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF366C991F7B6DBE00EC9F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF366C9A1F7B6DBE00EC9F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF366C9C1F7B6DBE00EC9F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS_day16_audioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "madhura.iOS-day16-audioPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF366C9D1F7B6DBE00EC9F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS_day16_audioPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "madhura.iOS-day16-audioPlayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF366C7F1F7B6DBD00EC9F4C /* Build configuration list for PBXProject "iOS_day16_audioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF366C991F7B6DBE00EC9F4C /* Debug */,
+				EF366C9A1F7B6DBE00EC9F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF366C9B1F7B6DBE00EC9F4C /* Build configuration list for PBXNativeTarget "iOS_day16_audioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF366C9C1F7B6DBE00EC9F4C /* Debug */,
+				EF366C9D1F7B6DBE00EC9F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF366C7C1F7B6DBD00EC9F4C /* Project object */;
+}
